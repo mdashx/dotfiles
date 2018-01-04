@@ -1,0 +1,9 @@
+[user]
+	email = tom@mdashx.com
+	name = tom
+[core]
+	editor = emacs
+	pager = less -r
+[alias]
+	conflicts = !git ls-files -u | cut -f 2 | sort -u
+    lg = !git --no-pager log --oneline -n 10
