@@ -90,7 +90,8 @@ export PATH=$PATH:$ANALYST_PORTAL_DIR/go/bin
 export PATH=$HOME/.npm-global/bin:$PATH
 
 export WORKON_HOME=$HOME/.virtualenvs
-source /usr/bin/virtualenvwrapper.sh
+
+source /usr/local/bin/virtualenvwrapper.sh
 
 if [ -f ~/.git-completion.bash ]; then
     . ~/.git-completion.bash
