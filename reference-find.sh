@@ -1,6 +1,8 @@
 # Find all ".pyc" files
 find . -name '*.pyc'
 find . -name '*pycache*'
+find . -type d -name '*.egg-info' # Only find directories
+
 
 # Find and delete all ".pyc" files
 # find . -name '*.pyc' -delete

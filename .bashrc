@@ -96,3 +96,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 if [ -f ~/.git-completion.bash ]; then
     . ~/.git-completion.bash
 fi
+
+export PATH="/home/vagrant/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"

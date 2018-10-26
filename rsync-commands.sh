@@ -1,1 +1,1 @@
-rsync -avzh my_dir/ user@remotehost:/home/user/path/
+rsync -avzh my_dir user@remotehost:/home/user/path/
