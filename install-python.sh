@@ -7,3 +7,7 @@ sudo apt-get install python-dev python3-dev libpq-dev postgresql-client-common p
      libmysqlclient-dev libxml2-dev libxslt1-dev python-cffi-backend python-paramiko libffi-dev python-psycopg2
 
 python -m pip install --upgrade virtualenv virtualenvwrapper awscli
+
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.6
