@@ -15,8 +15,12 @@ for filename in filenames:
     except:
         print('$HOME env var not set.')
         raise SystemExit()
-    if os.path.isfile(source_path):
-        print('File exists: {}'.format(filename))
-    else:
-        subprocess.call(['ln', '-s', source_path, target_path])
 
+    subprocess.call(['cp', source_path, target_path])
+    
+    # if os.path.isfile(source_path):
+    #     print('File exists: {}'.format(filename))
+    # else:
+    #     subprocess.call(['cp', source_path, target_path])
+
+        # subprocess.call(['ln', '-s', source_path, target_path])

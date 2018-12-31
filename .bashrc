@@ -77,19 +77,21 @@ export EDITOR=emacs
 alias emacs='emacsclient-snapshot -t'
 # Need alias for emacs (emacs-snaptho --daemon, emacsclient-snapshot -t)
 
-export ANALYST_PORTAL_DIR='/home/vagrant/analyst-portal'
-export GOPATH=$HOME/go
-export GOPATH=$GOPATH:$ANALYST_PORTAL_DIR/go
+# export GOPATH=$HOME/go
+# export GOPATH=$GOPATH:$ANALYST_PORTAL_DIR/go
 
 export PATH=$PATH:/usr/lib/go-1.9/bin
 export PATH=$PATH:$HOME/bin
-export PATH=$PATH:$HOME/go/bin
-export PATH=$PATH:$ANALYST_PORTAL_DIR/go/bin
+# export PATH=$PATH:$HOME/go/bin
 
+export WINHOME=/mnt/c/Users/Tom/Sync/home
+
+alias home="cd $WINHOME"
 
 export PATH=$HOME/.npm-global/bin:$PATH
+export PATH=$WINHOME/.npm-global/bin:$PATH
 
-export WORKON_HOME=$HOME/.virtualenvs
+export WORKON_HOME=/mnt/c/Users/Tom/.virtualenvs
 
 source /usr/local/bin/virtualenvwrapper.sh
 
@@ -97,6 +99,6 @@ if [ -f ~/.git-completion.bash ]; then
     . ~/.git-completion.bash
 fi
 
-export PATH="/home/vagrant/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# export PATH="/home/vagrant/.pyenv/bin:$PATH"
+# eval "$(pyenv init -)"
+# eval "$(pyenv virtualenv-init -)"
