@@ -1,1 +1,1 @@
-ssh -t root@hydrogen 'bash -s' < install-docker.sh
+ssh -t $USER@$HOST 'bash -s' < install-docker.sh

@@ -1,1 +1,1 @@
-ssh-copy-id tom@hydrogen
+ssh-copy-id $USER@$HOST
