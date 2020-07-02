@@ -102,3 +102,16 @@ fi
 # export PATH="/home/vagrant/.pyenv/bin:$PATH"
 # eval "$(pyenv init -)"
 # eval "$(pyenv virtualenv-init -)"
+
+
+function get_pilot_bastion_ip {
+    aws ec2 describe-instances --filters "Name=tag:aws:cloudformation:stack-name,Values=pilot-bastion" --query 'Reservations[].Instances[].NetworkInterfaces[].PrivateIpAddresses[].PrivateIpAddress' --output text
+}
+
+function get_production_bastion_ip {
+    aws ec2 describe-instances --filters "Name=tag:aws:cloudformation:stack-name,Values=production-bastion" --query 'Reservations[].Instances[].NetworkInterfaces[].PrivateIpAddresses[].PrivateIpAddress' --output text
+}
+
+function get_utility_bastion_ip {
+    aws ec2 describe-instances --filters "Name=tag:aws:cloudformation:stack-name,Values=utility-bastion" --query 'Reservations[].Instances[].NetworkInterfaces[].PrivateIpAddresses[].PrivateIpAddress' --output text
+}
