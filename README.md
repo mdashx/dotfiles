@@ -1,2 +1,2 @@
 # dotfiles
-Much simpler than the Ansible stuff I was doing before...
+Keep it simple.
