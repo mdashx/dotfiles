@@ -1,0 +1,3 @@
+
+Python argument unpacking (destructuring arguments to function call):
+https://docs.python.org/3/tutorial/controlflow.html#unpacking-argument-lists

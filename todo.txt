@@ -1,0 +1,2 @@
+- Move scripts to /bin and make executable
+- Cronjob to check every minute is clock is out of sync
