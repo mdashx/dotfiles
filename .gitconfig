@@ -7,3 +7,9 @@
 [alias]
 	conflicts = !git ls-files -u | cut -f 2 | sort -u
     lg = !git --no-pager log --oneline -n 10
+    lgf = !git log --pretty=fuller
+    # https://coderwall.com/p/euwpig/a-better-git-log
+    lgp = !git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/

@@ -1,0 +1,104 @@
+Reset everything to earlier commit, lose commits after that and lose local changes/files:
+
+`git reset --hard <commit>`
+
+---
+
+Change contents and message of most recent commit:
+
+1. Stage any changes I want to make (rm/edit/add files, git add changes)
+2. `git commit --amend -m <msg>`
+
+Example, to rewrite commit history from the beginning, I can git reset
+hard to the initial commit, and then make the staging area look
+however I want the initial commit to look, and then git ammend that
+initial commit.
+
+---
+
+Modify dates for commit
+
+Author date:
+
+git commit --date "Thu Jun 18 08:23:16 2020 -0600"
+
+Set Author and Committer date:
+
+GIT_COMMITTER_DATE="Thu Jun 18 08:23:16 2020 -0600" git commit --date
+"Thu Jun 18 08:23:16 2020 -0600"
+
+GIT_COMMITTER_DATE="Thu Jun 18 08:23:16 2020 -0600" git commit --amend
+--no-edit
+
+THIS_DATE="Mon Jul 13 11:46:05 2020 -0600"
+
+GIT_COMMITTER_DATE=$THIS_DATE git commit -m "Edit user profile in web UI" --date "$THIS_DATE"
+
+GIT_COMMITTER_DATE=$THIS_DATE git commit --amend --date "$THIS_DATE" --no-edit
+
+---
+
+Soft reset a dev branch, stash changes and then pop the stashed changes
+of a new branch.
+
+The "new branch" part is because I've developed on a messy dev branch,
+now I've gone back and changed master, and instead of rebasing, I can
+more easily just checkout a new branch from master and then pop the
+stash onto the new branch with the correct history.
+
+git stash push
+git checkout master
+git checkout -b clean-branch
+git stash pop
+git reset
+
+Now I have all of my files ready to be staged into logical commits.
+
+---
+
+Commit part of a new files
+
+First I have to tell Git I intend to add the file:
+
+git add -N Makefile
+
+Then I can add a hunk of the file
+
+git add -p Makefile
+
+Git shows me hunk options, but in this case it's the whole file
+because it's all new, so I can choose the "e" option to manually edit
+the file to just the changes I want.
+
+---
+
+Show the staged changes:
+
+git diff --staged or git diff --cached (same thing)
+
+---
+
+Remove file from staging:
+
+git reset Makefile
+
+---
+
+Use stash to get a clean directory, run tests and then get stashed
+changes back.
+
+(once all of my changes have been committed and everything unstaged or
+untracked is work in progress).
+
+git add .
+git stash push
+<do what I need to check>... `make test`
+git stash pop
+git reset
+
+---
+
+Show author and committer:
+
+git log --pretty=fuller
+git show --pretty=fuller <commit> 
