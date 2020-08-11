@@ -88,6 +88,8 @@ export WINHOME=/mnt/c/Users/Tom/Sync/home
 
 alias home="cd $WINHOME"
 
+alias wanip='dig @resolver1.opendns.com ANY myip.opendns.com +short'
+
 export PATH=$HOME/.npm-global/bin:$PATH
 export PATH=$WINHOME/.npm-global/bin:$PATH
 

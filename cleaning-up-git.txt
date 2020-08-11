@@ -1,3 +1,10 @@
+See names of files changed in each commit:
+
+`git --no-pager log --oneline | awk '{print $1}' | xargs git show --name-only > tmp.txt`
+
+
+---
+
 Reset everything to earlier commit, lose commits after that and lose local changes/files:
 
 `git reset --hard <commit>`
