@@ -7,6 +7,8 @@ case $- in
       *) return;;
 esac
 
+nohup bash /home/tom/dotfiles/sync-clock.sh &>/dev/null &
+
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
@@ -88,12 +90,11 @@ export WINHOME=/mnt/c/Users/Tom/Sync/home
 
 alias home="cd $WINHOME"
 
-alias wanip='dig @resolver1.opendns.com ANY myip.opendns.com +short'
-
 export PATH=$HOME/.npm-global/bin:$PATH
 export PATH=$WINHOME/.npm-global/bin:$PATH
 
-export WORKON_HOME=/mnt/c/Users/Tom/.virtualenvs
+# export WORKON_HOME=/mnt/c/Users/Tom/.virtualenvs
+export WORKON_HOME=/home/tom/.virtualenvs
 
 source /usr/local/bin/virtualenvwrapper.sh
 
@@ -117,3 +118,7 @@ function get_production_bastion_ip {
 function get_utility_bastion_ip {
     aws ec2 describe-instances --filters "Name=tag:aws:cloudformation:stack-name,Values=utility-bastion" --query 'Reservations[].Instances[].NetworkInterfaces[].PrivateIpAddresses[].PrivateIpAddress' --output text
 }
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
