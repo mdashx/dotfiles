@@ -5,7 +5,7 @@ filenames = [
     '.bashrc',
     '.git-completion.bash',
     '.gitconfig',
-    '.tmux.conf',
+#    '.tmux.conf',
 ]
 
 for filename in filenames:

@@ -7,4 +7,4 @@ if ! grep -q "ubuntu-elisp" /etc/apt/sources.list.d/*; then
 	sudo apt-get update
 fi
 
-sudo apt-get install emacs-snapshot
+sudo apt-get install emacs-snapshot-nox

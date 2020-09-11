@@ -7,7 +7,7 @@ case $- in
       *) return;;
 esac
 
-nohup bash /home/tom/dotfiles/sync-clock.sh &>/dev/null &
+# nohup bash /home/tom/dotfiles/sync-clock.sh &>/dev/null &
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
@@ -94,9 +94,9 @@ export PATH=$HOME/.npm-global/bin:$PATH
 export PATH=$WINHOME/.npm-global/bin:$PATH
 
 # export WORKON_HOME=/mnt/c/Users/Tom/.virtualenvs
-export WORKON_HOME=/home/tom/.virtualenvs
+# export WORKON_HOME=/home/tom/.virtualenvs
 
-source /usr/local/bin/virtualenvwrapper.sh
+# source /usr/local/bin/virtualenvwrapper.sh
 
 if [ -f ~/.git-completion.bash ]; then
     . ~/.git-completion.bash
@@ -122,3 +122,6 @@ function get_utility_bastion_ip {
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+alias pyvenv="source .venv/bin/activate"
