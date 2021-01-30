@@ -94,7 +94,7 @@ export PATH=$HOME/.npm-global/bin:$PATH
 export PATH=$WINHOME/.npm-global/bin:$PATH
 
 # export WORKON_HOME=/mnt/c/Users/Tom/.virtualenvs
-# export WORKON_HOME=/home/tom/.virtualenvs
+export WORKON_HOME=/home/tom/.virtualenvs
 
 # source /usr/local/bin/virtualenvwrapper.sh
 
@@ -125,3 +125,5 @@ export NVM_DIR="$HOME/.nvm"
 
 
 alias pyvenv="source .venv/bin/activate"
+
+alias pycreate="python3 -m venv .venv/"
