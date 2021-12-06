@@ -119,11 +119,17 @@ function get_utility_bastion_ip {
     aws ec2 describe-instances --filters "Name=tag:aws:cloudformation:stack-name,Values=utility-bastion" --query 'Reservations[].Instances[].NetworkInterfaces[].PrivateIpAddresses[].PrivateIpAddress' --output text
 }
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+export N_PREFIX=/home/tom/usr/local
+export PATH="/home/tom/usr/local/bin:$PATH"
 
 alias pyvenv="source .venv/bin/activate"
 
 alias pycreate="python3 -m venv .venv/"
+
+# TODO - would be better to use symlinks then copying the files XD
+
+alias pyserver="python3 -m 'http.server'"
