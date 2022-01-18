@@ -86,8 +86,7 @@ export PATH=$PATH:/usr/lib/go-1.9/bin
 export PATH=$PATH:$HOME/bin
 # export PATH=$PATH:$HOME/go/bin
 
-export WINHOME=/mnt/c/Users/Tom/Sync/home
-
+export WINHOME=/mnt/c/Users/johng/shared
 alias home="cd $WINHOME"
 
 export PATH=$HOME/.npm-global/bin:$PATH

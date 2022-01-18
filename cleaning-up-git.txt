@@ -1,3 +1,18 @@
+remove branches
+
+Local:
+
+git branch | grep 'Feature' | xargs git branch -D
+
+
+Remote:
+
+for branch in `git branch -a`; do echo "$branch" | python -c 'import sys; print("/".join(sys.stdin.read().strip().split("/")[2:]))' | xargs git push origin --delete; done;
+
+and then you need to run `git fetch --prune`
+
+
+
 See names of files changed in each commit:
 
 `git --no-pager log --oneline | awk '{print $1}' | xargs git show --name-only > tmp.txt`
