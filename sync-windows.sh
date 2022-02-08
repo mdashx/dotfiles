@@ -1,4 +1,2 @@
-
-
-rsync --update -avhW --no-compress --progress $WINHOME/* /home/tom/windows/
-rsync --update -avhW --no-compress --progress /home/tom/windows/ $WINHOME
+rsync --update -avhW --no-compress --progress $WINHOME/* /home/tom/share/
+rsync --update -avhW --no-compress --progress /home/tom/share/ $WINHOME
