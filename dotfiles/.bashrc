@@ -82,7 +82,7 @@ alias emacs='emacsclient-snapshot -t'
 # export GOPATH=$HOME/go
 # export GOPATH=$GOPATH:$ANALYST_PORTAL_DIR/go
 
-export PATH=$PATH:/usr/lib/go-1.9/bin
+export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$HOME/bin
 # export PATH=$PATH:$HOME/go/bin
 

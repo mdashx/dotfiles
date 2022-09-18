@@ -1,0 +1,5 @@
+https://askubuntu.com/questions/131900/how-do-i-switch-the-command-key-and-control-key-on-a-macbook-pro
+
+Edit X keyboard Extension
+
+sudo nano /usr/share/X11/xkb/symbols/pc

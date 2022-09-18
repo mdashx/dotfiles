@@ -43,4 +43,4 @@ def copy_bin():
 
 if __name__ == "__main__":
     copy_dotfiles()
-#    copy_bin()
+    # copy_bin()
