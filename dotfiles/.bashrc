@@ -1,3 +1,4 @@
+############## Default stuff here ##############
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -6,8 +7,6 @@ case $- in
     *i*) ;;
       *) return;;
 esac
-
-# nohup bash /home/tom/dotfiles/sync-clock.sh &>/dev/null &
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
@@ -69,66 +68,26 @@ if ! shopt -oq posix; then
 fi
 
 
+############## My stuff here ##############
 
-
-# My Stuff
 PS1="\u@\h \W$ "
 LS_COLORS=$LS_COLORS:'ow=01;34:' ; export LS_COLORS
 
-export EDITOR=emacs
+export EDITOR=nvim
+
 alias emacs='emacsclient-snapshot -t'
-# Need alias for emacs (emacs-snaptho --daemon, emacsclient-snapshot -t)
-
-# export GOPATH=$HOME/go
-# export GOPATH=$GOPATH:$ANALYST_PORTAL_DIR/go
-
-export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:$HOME/bin
-# export PATH=$PATH:$HOME/go/bin
 
 export WINHOME=/mnt/c/Users/johng/shared
 alias home="cd $WINHOME"
-
-export PATH=$HOME/.npm-global/bin:$PATH
-export PATH=$WINHOME/.npm-global/bin:$PATH
-
-# export WORKON_HOME=/mnt/c/Users/Tom/.virtualenvs
-export WORKON_HOME=/home/tom/.virtualenvs
-
-# source /usr/local/bin/virtualenvwrapper.sh
 
 if [ -f ~/.git-completion.bash ]; then
     . ~/.git-completion.bash
 fi
 
-# export PATH="/home/vagrant/.pyenv/bin:$PATH"
-# eval "$(pyenv init -)"
-# eval "$(pyenv virtualenv-init -)"
-
-
-function get_pilot_bastion_ip {
-    aws ec2 describe-instances --filters "Name=tag:aws:cloudformation:stack-name,Values=pilot-bastion" --query 'Reservations[].Instances[].NetworkInterfaces[].PrivateIpAddresses[].PrivateIpAddress' --output text
-}
-
-function get_production_bastion_ip {
-    aws ec2 describe-instances --filters "Name=tag:aws:cloudformation:stack-name,Values=production-bastion" --query 'Reservations[].Instances[].NetworkInterfaces[].PrivateIpAddresses[].PrivateIpAddress' --output text
-}
-
-function get_utility_bastion_ip {
-    aws ec2 describe-instances --filters "Name=tag:aws:cloudformation:stack-name,Values=utility-bastion" --query 'Reservations[].Instances[].NetworkInterfaces[].PrivateIpAddresses[].PrivateIpAddress' --output text
-}
-
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 export N_PREFIX=/home/tom/usr/local
-export PATH="/home/tom/usr/local/bin:$PATH"
+
+export PATH=$HOME/bin:$HOME/usr/local/bin:$HOME/.npm-global/bin:$PATH
 
 alias pyvenv="source .venv/bin/activate"
-
 alias pycreate="python3 -m venv .venv/"
-
-# TODO - would be better to use symlinks then copying the files XD
-
 alias pyserver="python3 -m 'http.server'"
