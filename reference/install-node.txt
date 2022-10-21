@@ -1,0 +1,9 @@
+tom@fingerscrossed dotfiles$ echo $N_PREFIX
+/home/tom/usr/local
+
+https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally
+
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+export PATH=~/.npm-global/bin:$PATH
+
