@@ -2,7 +2,7 @@
 	email = tom@mdashx.com
 	name = tom
 [core]
-	editor = emacs
+	editor = vim
 	pager = less -r
 [alias]
 	conflicts = !git ls-files -u | cut -f 2 | sort -u

@@ -87,6 +87,9 @@ fi
 export N_PREFIX=/home/tom/usr/local
 
 export PATH=$HOME/bin:$HOME/usr/local/bin:$HOME/.npm-global/bin:$PATH
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$HOME/go/bin
+
 
 alias pyvenv="source .venv/bin/activate"
 alias pycreate="python3 -m venv .venv/"
