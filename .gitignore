@@ -1,5 +1,7 @@
 commit.txt
 
+nvim/plugin/
+
 dev_requirements.txt
 build/
 sources/
