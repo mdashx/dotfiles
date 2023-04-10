@@ -94,3 +94,5 @@ export PATH=$PATH:$HOME/go/bin
 alias pyvenv="source .venv/bin/activate"
 alias pycreate="python3 -m venv .venv/"
 alias pyserver="python3 -m 'http.server'"
+
+alias vim='nvim'
