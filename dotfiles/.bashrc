@@ -89,6 +89,7 @@ export N_PREFIX=/home/tom/usr/local
 export PATH=$HOME/bin:$HOME/usr/local/bin:$HOME/.npm-global/bin:$PATH
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$HOME/go/bin
+export PATH=$PATH:$HOME/bin/squashfs-root/usr/bin/
 
 
 alias pyvenv="source .venv/bin/activate"
