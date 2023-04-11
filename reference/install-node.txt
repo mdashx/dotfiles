@@ -1,5 +1,11 @@
+https://github.com/tj/n
+
 tom@fingerscrossed dotfiles$ echo $N_PREFIX
 /home/tom/usr/local
+
+curl -fsSL https://raw.githubusercontent.com/tj/n/master/bin/n | bash -s lts
+# If you want n installed, you can use npm now.
+npm install -g n
 
 https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally
 
