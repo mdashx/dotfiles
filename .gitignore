@@ -24,7 +24,6 @@ tmp*
 .coverage
 .venv/
 
-bin/
 cache/
 
 

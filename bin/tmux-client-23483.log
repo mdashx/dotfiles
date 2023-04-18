@@ -1,0 +1,68 @@
+1681834857.565672 client started (23483): version 3.1c, socket /tmp/tmux-1000/default, protocol 8
+1681834857.565727 on Linux 5.15.89-16173-ge924d337a40c #1 SMP PREEMPT Tue Mar 21 19:16:18 PDT 2023; libevent 2.1.12-stable (poll)
+1681834857.565794 socket is /tmp/tmux-1000/default
+1681834857.565826 trying connect
+1681834857.565867 connect failed: Connection refused
+1681834857.565890 lock file is /tmp/tmux-1000/default.lock
+1681834857.565955 flock succeeded
+1681834857.565963 got lock (6)
+1681834857.565975 trying connect
+1681834857.565993 connect failed: Connection refused
+1681834857.566521 add peer 0x580b00ecda40: 7 ((nil))
+1681834857.566874 sending message 100 to peer 0x580b00ecda40 (4 bytes)
+1681834857.566897 sending message 101 to peer 0x580b00ecda40 (15 bytes)
+1681834857.566907 sending message 102 to peer 0x580b00ecda40 (11 bytes)
+1681834857.566915 sending message 108 to peer 0x580b00ecda40 (23 bytes)
+1681834857.566924 sending message 104 to peer 0x580b00ecda40 (0 bytes)
+1681834857.566932 sending message 107 to peer 0x580b00ecda40 (4 bytes)
+1681834857.566940 sending message 105 to peer 0x580b00ecda40 (16 bytes)
+1681834857.566948 sending message 105 to peer 0x580b00ecda40 (19 bytes)
+1681834857.566955 sending message 105 to peer 0x580b00ecda40 (34 bytes)
+1681834857.566963 sending message 105 to peer 0x580b00ecda40 (34 bytes)
+1681834857.566970 sending message 105 to peer 0x580b00ecda40 (16 bytes)
+1681834857.566977 sending message 105 to peer 0x580b00ecda40 (23 bytes)
+1681834857.566984 sending message 105 to peer 0x580b00ecda40 (12 bytes)
+1681834857.566992 sending message 105 to peer 0x580b00ecda40 (27 bytes)
+1681834857.566999 sending message 105 to peer 0x580b00ecda40 (12 bytes)
+1681834857.567008 sending message 105 to peer 0x580b00ecda40 (26 bytes)
+1681834857.567015 sending message 105 to peer 0x580b00ecda40 (51 bytes)
+1681834857.567022 sending message 105 to peer 0x580b00ecda40 (38 bytes)
+1681834857.567029 sending message 105 to peer 0x580b00ecda40 (28 bytes)
+1681834857.567036 sending message 105 to peer 0x580b00ecda40 (23 bytes)
+1681834857.567043 sending message 105 to peer 0x580b00ecda40 (15 bytes)
+1681834857.567069 sending message 105 to peer 0x580b00ecda40 (17 bytes)
+1681834857.567083 sending message 105 to peer 0x580b00ecda40 (1529 bytes)
+1681834857.567109 sending message 105 to peer 0x580b00ecda40 (30 bytes)
+1681834857.567117 sending message 105 to peer 0x580b00ecda40 (29 bytes)
+1681834857.567125 sending message 105 to peer 0x580b00ecda40 (26 bytes)
+1681834857.567133 sending message 105 to peer 0x580b00ecda40 (47 bytes)
+1681834857.567140 sending message 105 to peer 0x580b00ecda40 (15 bytes)
+1681834857.567148 sending message 105 to peer 0x580b00ecda40 (41 bytes)
+1681834857.567156 sending message 105 to peer 0x580b00ecda40 (34 bytes)
+1681834857.567190 sending message 105 to peer 0x580b00ecda40 (20 bytes)
+1681834857.567200 sending message 105 to peer 0x580b00ecda40 (32 bytes)
+1681834857.567228 sending message 105 to peer 0x580b00ecda40 (9 bytes)
+1681834857.567238 sending message 105 to peer 0x580b00ecda40 (22 bytes)
+1681834857.567246 sending message 105 to peer 0x580b00ecda40 (19 bytes)
+1681834857.567254 sending message 105 to peer 0x580b00ecda40 (11 bytes)
+1681834857.567262 sending message 105 to peer 0x580b00ecda40 (8 bytes)
+1681834857.567269 sending message 105 to peer 0x580b00ecda40 (31 bytes)
+1681834857.567277 sending message 105 to peer 0x580b00ecda40 (30 bytes)
+1681834857.567284 sending message 105 to peer 0x580b00ecda40 (23 bytes)
+1681834857.567292 sending message 105 to peer 0x580b00ecda40 (22 bytes)
+1681834857.567300 sending message 105 to peer 0x580b00ecda40 (164 bytes)
+1681834857.567307 sending message 105 to peer 0x580b00ecda40 (36 bytes)
+1681834857.567315 sending message 105 to peer 0x580b00ecda40 (243 bytes)
+1681834857.567323 sending message 105 to peer 0x580b00ecda40 (54 bytes)
+1681834857.567331 sending message 105 to peer 0x580b00ecda40 (25 bytes)
+1681834857.567338 sending message 105 to peer 0x580b00ecda40 (26 bytes)
+1681834857.567346 sending message 105 to peer 0x580b00ecda40 (16 bytes)
+1681834857.567355 sending message 106 to peer 0x580b00ecda40 (0 bytes)
+1681834857.567386 sending message 200 to peer 0x580b00ecda40 (4 bytes)
+1681834857.567398 client loop enter
+1681834857.608298 peer 0x580b00ecda40 message 207
+1681834857.608310 sending message 208 to peer 0x580b00ecda40 (0 bytes)
+1681834860.862097 peer 0x580b00ecda40 message 203
+1681834860.862125 sending message 205 to peer 0x580b00ecda40 (0 bytes)
+1681834860.862726 peer 0x580b00ecda40 message 204
+1681834860.862749 client loop exit

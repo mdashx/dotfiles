@@ -14,7 +14,18 @@ return require('packer').startup(function(use)
     }
 
     use({ 'rose-pine/neovim', as = 'rose-pine' })
+    use({ 'sonph/onehalf', rtp = 'vim'})
 
+    -- I have to include Wombat in here, because this was the primary color
+    -- scheme I used on Emacs for 15+ years. I think newer themes like 
+    -- Onehalf and Solarized are maybe a little more sophisticated, but idk
+    -- it still looks good, especialy if I were to edit so that the gutters
+    -- matched the background colors.
+    use({ 'sheerun/vim-wombat-scheme', as = 'wombat' })
+
+--    use({'altercation/vim-colors-solarized', as = 'solarized'})
+    use({'frankier/neovim-colors-solarized-truecolor-only', as = 'solarized'})
+        use({'jeffkreeftmeijer/vim-dim', as = 'dim'})
     use {
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
