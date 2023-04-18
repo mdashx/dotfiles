@@ -21,7 +21,7 @@ return require('packer').startup(function(use)
     -- Onehalf and Solarized are maybe a little more sophisticated, but idk
     -- it still looks good, especialy if I were to edit so that the gutters
     -- matched the background colors.
-    use({ 'sheerun/vim-wombat-scheme', as = 'wombat' })
+    use({ 'mdashx/vim-wombat-scheme', as = 'wombat' })
 
 --    use({'altercation/vim-colors-solarized', as = 'solarized'})
     use({'frankier/neovim-colors-solarized-truecolor-only', as = 'solarized'})
