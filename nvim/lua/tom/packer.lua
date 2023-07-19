@@ -59,4 +59,5 @@ return require('packer').startup(function(use)
 
     use 'airblade/vim-gitgutter'
     use 'christoomey/vim-tmux-navigator'
+    use 'prettier/vim-prettier'
 end)
