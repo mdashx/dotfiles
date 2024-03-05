@@ -77,7 +77,7 @@ export EDITOR=nvim
 
 alias emacs='emacsclient-snapshot -t'
 
-export WINHOME=/mnt/c/Users/johng/shared
+export WINHOME=/mnt/c/Users/johng/
 alias home="cd $WINHOME"
 
 if [ -f ~/.git-completion.bash ]; then
