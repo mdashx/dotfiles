@@ -1,4 +1,4 @@
-############## Default stuff here ##############
+########### Default stuff here ##############
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -90,7 +90,7 @@ export PATH=$HOME/bin:$HOME/usr/local/bin:$HOME/.npm-global/bin:$PATH
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$HOME/go/bin
 export PATH=$PATH:$HOME/bin/squashfs-root/usr/bin/
-
+export PATH="$PATH:/opt/nvim-linux64/bin"
 
 alias pyvenv="source .venv/bin/activate"
 alias pycreate="python3 -m venv .venv/"
