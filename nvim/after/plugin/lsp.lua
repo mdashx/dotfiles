@@ -1,8 +1,10 @@
 local lsp = require('lsp-zero').preset({})
 
 lsp.on_attach(function(client, bufnr)
-  lsp.default_keymaps({buffer = bufnr})
-  lsp.buffer_autoformat()
+    lsp.default_keymaps({ buffer = bufnr })
+    lsp.buffer_autoformat()
+
+    vim.keymap.set('n', 'gn', '<cmd>lua vim.lsp.buf.rename()<cr>', { buffer = bufnr })
 end)
 
 lsp.ensure_installed({
