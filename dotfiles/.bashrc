@@ -99,10 +99,10 @@ alias vim='nvim'
 
 # Would be best to check if we're on WSL first
 # https://superuser.com/questions/1749781/how-can-i-check-if-the-environment-is-wsl-from-a-shell-script
-if [ -f "/proc/sys/fs/binfmt_misc/WSLInterop" ]; then
-    service cron status || sudo service cron start
-fi
-
+# if [ -f "/proc/sys/fs/binfmt_misc/WSLInterop" ]; then
+#     service cron status || sudo service cron start
+# fi
+#
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
