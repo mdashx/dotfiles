@@ -9,6 +9,7 @@ def link_dotfiles():
         ".git-completion.bash",
         ".gitconfig",
         ".tmux.conf",
+        ".command_palette"
     ]
 
     for filename in filenames:
@@ -19,7 +20,10 @@ def link_dotfiles():
             print("$HOME env var not set.")
             raise SystemExit()
 
-        subprocess.call(['ln', '-s', source_path, target_path])
+        try:
+            subprocess.call(['ln', '-s', source_path, target_path])
+        except:
+            print("Link probably exists", filename)
 
 
 def copy_bin():

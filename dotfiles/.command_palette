@@ -1,0 +1,6 @@
+git status    # Show current changes
+git log --oneline    # Display compact commit history
+git rebase -i HEAD~3    # Start interactive rebase
+git format-patch --root -o patches/ # Create patch files for all commits
+
+
