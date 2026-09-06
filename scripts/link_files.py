@@ -9,7 +9,9 @@ def link_dotfiles():
         ".git-completion.bash",
         ".gitconfig",
         ".tmux.conf",
-        ".command_palette"
+        ".command_palette",
+        "AGENTS.md",
+        "CLAUDE.md",
     ]
 
     for filename in filenames:
