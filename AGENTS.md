@@ -4,6 +4,8 @@ This repository manages user-level dotfiles and machine bootstrap helpers.
 
 Follow the machine-level agent guide at `dotfiles/AGENTS.md` for general RADPAIR development-machine behavior.
 
+Scenario-specific coding-agent guidance lives in `agents/README.md`. Do not read the whole `agents/` directory at startup; use the index and follow only the links relevant to the current task.
+
 ## Routine Updates
 
 When making a routine, low-risk update in this repository, commit the relevant change and push it to GitHub after validation.

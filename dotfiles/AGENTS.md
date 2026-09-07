@@ -24,19 +24,17 @@ Dictation may contain:
 
 Agents should interpret requests pragmatically and should not require perfectly formal input before making progress.
 
+## Scenario Instructions
+
+Additional agent instructions live in `../agents/`.
+
+Do not read that whole directory at startup. Use `../agents/README.md` as a routing index, then open only the specific linked file for the scenario at hand.
+
 ## Identifier Resolution
 
 When the human refers to a file, folder, branch, project, command, service, ticket, feature, or other identifier, treat the phrase as an approximate reference unless it is clearly exact.
 
-Before saying something cannot be found, do lightweight local investigation:
-- list nearby files and directories
-- use fuzzy or partial search
-- search likely workspace roots
-- compare names semantically, not only literally
-- consider recent conversation context
-- consider common dictation errors
-
-If multiple plausible matches exist, explain the likely options and ask a plain-text clarifying question.
+If identifier ambiguity is central to the task, read `../agents/identifier-resolution.md`.
 
 ## Interaction Style
 
@@ -60,6 +58,8 @@ The human may be thinking through product design, software architecture, domain 
 
 In this mode, do not rush to act. Do not assume discussion implies permission to make changes. It is appropriate to read files, inspect context, summarize findings, ask clarifying questions, and help shape ideas into clearer design documents.
 
+If the task is primarily exploratory design conversation, read `../agents/design-conversation.md`.
+
 ### 2. Operational Execution
 
 Some requests are direct operational tasks on the machine.
@@ -77,6 +77,8 @@ Examples:
 
 For routine operational tasks, keep going until the task is complete, blocked by a real external requirement, or unsafe to continue.
 
+If the task is direct operational work on the machine, read `../agents/operational-execution.md`.
+
 ### 3. Plan Execution
 
 Some work follows an existing design document, implementation plan, ticket, or explicit task list.
@@ -84,6 +86,8 @@ Some work follows an existing design document, implementation plan, ticket, or e
 When a plan exists, follow it through execution. Do not repeatedly stop for confirmation on each step. Keep working through the plan until the planned work is complete, blocked, or the plan is discovered to be materially wrong.
 
 If the plan is ambiguous, resolve small ambiguities using local context and engineering judgment. Ask only when the ambiguity changes the goal, risk, cost, or user-visible behavior.
+
+If the task is executing an existing plan, read `../agents/plan-execution.md`.
 
 ## Autonomy For Operational Work
 
