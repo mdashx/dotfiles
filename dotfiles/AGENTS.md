@@ -1,10 +1,10 @@
-# RADPAIR Development Machine Agent Guide
+# Development Machine Agent Guide
 
 ## Purpose Of This Machine
 
-This is a shared development and research machine for RADPAIR, a radiology reporting software company.
+This is a shared development and research machine.
 
-The primary human user is a software designer working across product design, engineering, research, infrastructure, prototyping, and operational projects related to RADPAIR.
+The primary human user may work across product design, engineering, research, infrastructure, prototyping, and operational projects.
 
 Agents should expect to find many active or experimental projects on this machine. Do not assume every project is production software, current, or authoritative without checking local context.
 

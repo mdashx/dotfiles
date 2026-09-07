@@ -1,6 +1,6 @@
 # Agent Instruction Library
 
-This directory contains scenario-specific guidance for coding agents working on the RADPAIR development machine.
+This directory contains scenario-specific guidance for coding agents working on a development machine.
 
 Do not read every file in this directory at startup. Use this file as a routing index and open only the linked document that matches the current task.
 
