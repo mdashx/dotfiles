@@ -10,6 +10,17 @@ Working doc for “what we install by default on a new machine” and the minimu
 
 ## Tools
 
+### Workbench: basic-tools (local web utility service)
+
+**Repo**
+- `~/src/workbench` from https://github.com/PrincipleLabs67/workbench
+
+**Bootstrap**
+- `~/dotfiles/scripts/install-workbench-basic-tools.sh`
+
+**systemd**
+- User unit template: `~/dotfiles/reference/systemd/user/basic-tools.service`
+
 ### rclone (Google Drive)
 
 **Use case**
@@ -44,4 +55,3 @@ Working doc for “what we install by default on a new machine” and the minimu
 - Treat `~/.config/rclone/rclone.conf` as a secret (contains refresh tokens).
 - Lock down permissions: `chmod 600 ~/.config/rclone/rclone.conf`
 - Consider setting an rclone config password via `rclone config` → “Set configuration password”.
-

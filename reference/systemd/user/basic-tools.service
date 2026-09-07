@@ -1,0 +1,16 @@
+[Unit]
+Description=Workbench Basic Tools Web Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/src/workbench/basic-tools
+ExecStart=%h/.local/bin/basic-tools
+Environment=PORT=8080
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target
+

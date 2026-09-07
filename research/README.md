@@ -5,4 +5,5 @@ Scratchpad for notes/policies/checklists that are useful across machines, but do
 ## Index
 
 - `research/new-machine-tooling-policy.md` — Baseline tool policy for new machines (includes `rclone` / Google Drive).
+- `research/workbench-basic-tools.md` — How we install/run the `workbench/basic-tools` web utility service.
 
