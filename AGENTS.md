@@ -16,7 +16,11 @@ Routine updates include:
 - updating bootstrap scripts
 - adding small reference notes or helper scripts
 
-Do not include unrelated local modifications in the commit.
+Unrelated local modifications may be included when they are clearly innocuous dotfiles cleanup. In this repository, such changes are usually not part of another project or workstream; they are often ordinary tidying that should be preserved in git history.
+
+Prefer keeping git history, directory contents, file permissions, symlinks, and bootstrap state tidy. If an unrelated change looks routine and low-risk, include it in the commit with the rest of the dotfiles maintenance work.
+
+Do not include unrelated local modifications that are risky, unclear, secret-bearing, destructive, or plausibly part of another active task.
 
 ## Branch Conflicts
 
