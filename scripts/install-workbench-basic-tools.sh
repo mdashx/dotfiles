@@ -10,7 +10,14 @@ mkdir -p "${HOME}/src" "${HOME}/.local/bin"
 
 if [ -d "${repo_dir}/.git" ]; then
   echo "Updating ${repo_dir}..."
-  (cd "${repo_dir}" && git pull --ff-only)
+  (
+    cd "${repo_dir}"
+    git remote set-url origin https://github.com/PrincipleLabs67/workbench.git
+    # Avoid any global git URL rewrite rules.
+    if ! GIT_CONFIG_GLOBAL=/dev/null git pull --ff-only; then
+      echo "Warning: could not update repo (network or auth issue). Continuing with existing checkout." >&2
+    fi
+  )
 else
   echo "Cloning workbench into ${repo_dir}..."
   # Avoid any global git URL rewrite rules.
@@ -43,4 +50,3 @@ if command -v systemctl >/dev/null 2>&1; then
 fi
 
 echo "Done."
-
