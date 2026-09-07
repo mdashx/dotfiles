@@ -1,0 +1,22 @@
+# Toolchain Service Infrastructure — Acceptance Matrix
+
+The project was adopted on 2026-09-07. A row becomes `passed` only through named executable evidence.
+
+| ID | Obligation | Plan/UI reference | Ticket | Status | Evidence |
+|---|---|---|---|---|---|
+| A-01 | Preserve the passing cold setup baseline and exact installed identities | Plan §2 | TSI-000 | passed | `make -C setup verify` passed all ten gates (2026-09-07) |
+| A-02 | Keep tickets, dependencies, state cursor, and acceptance references structurally consistent | Plan §10 | TSI-000 | passed | `make -C infrastructure orchestration` (2026-09-07) |
+| A-03 | Define versioned health, manifest, result, artifact, and error contracts usable from Go, Python, and Prolog | Plan §4 | TSI-001 | passed | `make -C infrastructure test-contracts` (2026-09-07) |
+| A-04 | Keep Stanza resident and pass deterministic sequential, concurrent, malformed-input, deadline, and memory checks | Plan §8 | TSI-002 | passed | `make -C infrastructure smoke-stanza-service`: 100 sequential + 32 concurrent calls (2026-09-07) |
+| A-05 | Keep UCxn/Grew resident, exercise official rules repeatedly, clean backend state, and leave no orphan backend | Plan §§3.2, 8 | TSI-003 | passed | Both endpoints: 100 sequential + 32 concurrent calls; no orphan backend (2026-09-07) |
+| A-06 | Load MoCCA and FrameNet once and pass complete-resource identity and repeated representative query checks | Plan §§2, 8 | TSI-004 | passed | Both resources: 100 sequential + 32 concurrent deterministic calls with reconciled complete-resource counts (2026-09-07) |
+| A-07 | Keep SWI-Prolog and the RadLex runtime bundle resident and pass transport, ontology, boundary, concurrency, and timeout checks | Plan §§4.4, 8 | TSI-005 | passed | CoNLL-U and RadLex: 100 sequential + 32 concurrent calls; exact boundary, malformed-input, and deadline checks (2026-09-07) |
+| A-08 | Start, stop, fail, and recover each service predictably under declarative local supervision | Plan §5 | TSI-006 | passed | Both bare services recovered canonical-equivalently from five forced failures; clean stop/start and no Grew orphan (2026-09-07) |
+| A-09 | Route every required capability through Go with deadlines, identity validation, and structured diagnostics | Plan §6 | TSI-007 | passed | All eleven named endpoint forms passed through Go; stale identity, contract mismatch, diagnostics, allowlisting, and reconnect behavior tested (2026-09-07) |
+| A-10 | Transport the existing assembly fixture through Go and all required service seams with the exact anchor/pivot preserved | Plan §8.4 | TSI-008 | passed | Ten-verification full evaluation preserved exact existential anchor and Pivot through every HTTP/serialization seam (2026-09-07) |
+| A-11 | Persist immutable evaluations, verifications, diagnostics, and artifact digests bound to exact identities | Plan §6.1 | TSI-008 | passed | Read-only completed record, twelve digest-checked artifacts, restart-stable history, partial-record rejection, and staleness unit evidence (2026-09-07) |
+| A-12 | Render readiness, Services, Components, Capabilities, Seams, outcomes, and evidence in the Toolchain UI | UI draft §§2–3; Plan §7 | TSI-009 | passed | Evidence-centered server-rendered UI exposes all required concepts and distinguishes service/component/capability states (2026-09-07) |
+| A-13 | Provide stable routes and a useful semantic document without JavaScript | UI draft §§3.10–3.15; Plan §7 | TSI-009 | passed | Stable current/history/concept/evidence routes, native controls, raw artifacts, invalid-route checks, and no JavaScript (2026-09-07) |
+| A-14 | Start only named verification operations through explicit Go-hub forms and expose refresh/SSE progress without hiding state | UI draft §§3.9, 3.17; Plan §7.3 | TSI-010 | passed | CSRF/origin/allowlist checks, stable persistent runs, explicit duplicates, one-active bound, and refresh-complete truth (2026-09-07) |
+| A-15 | Pass the complete repeated-call, concurrency, malformed-input, deadline, memory, and five-cycle restart profile | Plan §§8.2–8.5 | TSI-011 | passed | Seven direct tool families at 100+32 calls, structured negatives/memory checks, plus five forced recoveries per bare service (2026-09-07) |
+| A-16 | Pass the clean offline final gate without introducing radiology application semantics | Plan §§1.2, 12 | TSI-011 | passed | `make -C infrastructure verify` passed from fully stopped services with local artifacts only; final report preserves the non-application boundary (2026-09-07) |

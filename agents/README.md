@@ -4,6 +4,13 @@ This directory contains scenario-specific guidance for coding agents working on 
 
 Do not read every file in this directory at startup. Use this file as a routing index and open only the linked document that matches the current task.
 
+For reusable content that is not standing instruction, use:
+
+- `../prompts/` for mid-conversation prompt frames;
+- `../practices/` for process methods and best-practice writeups;
+- `../templates/` for fillable artifact skeletons;
+- `../examples/` for completed reference artifacts.
+
 ## How To Use This Directory
 
 Each scenario document should be written so it can stand alone.

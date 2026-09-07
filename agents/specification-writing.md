@@ -516,6 +516,30 @@ Typical criteria include:
 
 Acceptance criteria should evaluate the **specification and compiler behavior**, not merely the existence of documentation.
 
+## 9.1 Version Identity in User Interface Specifications
+
+A specification for a user interface must define how a person can identify the
+version they are viewing. Version identity is part of the interface contract,
+not merely build metadata hidden in source control, an asset URL, or an HTTP
+header.
+
+The specification should require:
+
+- a visible application version in a stable location on every primary view;
+- machine-discoverable version identity in the semantic DOM;
+- clear labels that distinguish the application version from API, contract,
+  schema, data, model, resource, and build versions;
+- one authoritative implementation source for each displayed version;
+- an explicit rule for when user-visible behavior causes the application
+  version to change; and
+- acceptance tests that verify both the visible and machine-discoverable
+  identities.
+
+A commit identifier or build timestamp may supplement an application version,
+but it does not replace one. A specification should not display several
+unlabelled version-like strings and require the user to infer which one
+identifies the interface itself.
+
 ---
 
 # 10. Reference Appendices

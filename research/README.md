@@ -2,6 +2,16 @@
 
 Scratchpad for notes/policies/checklists that are useful across machines, but don’t belong in a single dotfile.
 
+When a note becomes a durable method, prompt, template, or example, promote or
+copy it into the matching process-library directory:
+
+```text
+../prompts/
+../practices/
+../templates/
+../examples/
+```
+
 ## Index
 
 - `research/new-machine-tooling-policy.md` — Baseline tool policy for new machines (includes `rclone` / Google Drive).
