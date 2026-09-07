@@ -14,6 +14,7 @@ copy it into the matching process-library directory:
 
 ## Index
 
+- `research/markdown-process-system-conceptual-spec.md` — Conceptual model for the Markdown-based agent/research/process system.
 - `research/new-machine-tooling-policy.md` — Baseline tool policy for new machines (includes `rclone` / Google Drive).
 - `research/repository-resident-agent-orchestration.md` — Evidence-backed, resumable orchestration for continuous coding-agent work.
 - `research/workbench-basic-tools.md` — How we install/run the `workbench/basic-tools` web utility service.

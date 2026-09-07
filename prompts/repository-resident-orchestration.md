@@ -3,6 +3,10 @@
 Use when starting a sustained implementation or cleanup effort that must be
 resumable across agents and context loss.
 
+This prompt creates the workspace. After the workspace exists, use
+`durable-single-writer-coordinator.md` for source-writing implementation loops
+or `continuous-research-coordinator.md` for evidence-gathering research loops.
+
 ```text
 Create a repository-resident orchestration workspace for this effort.
 
@@ -20,4 +24,8 @@ reconstructing the project from conversation history.
 
 A ticket becomes complete only when its verification passes and completion
 evidence is recorded.
+
+If this workspace will be executed continuously, define the completion
+predicate, human gates, blocker policy, verification commands, source-writing
+ownership, and whether subagents are allowed.
 ```

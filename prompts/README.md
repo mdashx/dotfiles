@@ -21,6 +21,9 @@ Prompts should be concise enough to paste or adapt during active work.
 ## Current Prompts
 
 - `conversation-to-spec-fieldstone.md` - collect durable design facts during a long conversation.
+- `continuous-research-coordinator.md` - run evidence-seeking research cycles until stated completion criteria or a real stop condition.
+- `design-space-research-loop.md` - explore a product/UI/design space through purposeful variants and synthesis.
+- `durable-single-writer-coordinator.md` - run an implementation plan continuously with one source-writing coordinator.
 - `practice-distillation-pass.md` - review recent work for reusable process material.
 - `recent-work-catchup.md` - conversationally survey recent machine activity and reconstruct work episodes.
 - `repository-resident-orchestration.md` - start a resumable orchestration workspace.
