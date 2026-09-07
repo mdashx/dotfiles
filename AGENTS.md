@@ -4,7 +4,7 @@ This repository manages user-level dotfiles and machine bootstrap helpers.
 
 Follow the machine-level agent guide at `dotfiles/AGENTS.md` for general development-machine behavior.
 
-Scenario-specific coding-agent guidance lives in `agents/README.md`. Do not read the whole `agents/` directory at startup; use the index and follow only the links relevant to the current task.
+Scenario-specific coding-agent guidance lives in `~/dotfiles/agents/README.md`. Do not read the whole `~/dotfiles/agents/` directory at startup; use the index and follow only the links relevant to the current task.
 
 ## Routine Updates
 

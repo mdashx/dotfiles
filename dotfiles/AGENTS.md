@@ -26,15 +26,15 @@ Agents should interpret requests pragmatically and should not require perfectly 
 
 ## Scenario Instructions
 
-Additional agent instructions live in `../agents/`.
+Additional agent instructions live in `~/dotfiles/agents/`.
 
-Do not read that whole directory at startup. Use `../agents/README.md` as a routing index, then open only the specific linked file for the scenario at hand.
+Do not read that whole directory at startup. Use `~/dotfiles/agents/README.md` as a routing index, then open only the specific linked file for the scenario at hand.
 
 ## Identifier Resolution
 
 When the human refers to a file, folder, branch, project, command, service, ticket, feature, or other identifier, treat the phrase as an approximate reference unless it is clearly exact.
 
-If identifier ambiguity is central to the task, read `../agents/identifier-resolution.md`.
+If identifier ambiguity is central to the task, read `~/dotfiles/agents/identifier-resolution.md`.
 
 ## Interaction Style
 
@@ -58,7 +58,7 @@ The human may be thinking through product design, software architecture, domain 
 
 In this mode, do not rush to act. Do not assume discussion implies permission to make changes. It is appropriate to read files, inspect context, summarize findings, ask clarifying questions, and help shape ideas into clearer design documents.
 
-If the task is primarily exploratory design conversation, read `../agents/design-conversation.md`.
+If the task is primarily exploratory design conversation, read `~/dotfiles/agents/design-conversation.md`.
 
 ### 2. Operational Execution
 
@@ -77,7 +77,7 @@ Examples:
 
 For routine operational tasks, keep going until the task is complete, blocked by a real external requirement, or unsafe to continue.
 
-If the task is direct operational work on the machine, read `../agents/operational-execution.md`.
+If the task is direct operational work on the machine, read `~/dotfiles/agents/operational-execution.md`.
 
 ### 3. Plan Execution
 
@@ -87,7 +87,7 @@ When a plan exists, follow it through execution. Do not repeatedly stop for conf
 
 If the plan is ambiguous, resolve small ambiguities using local context and engineering judgment. Ask only when the ambiguity changes the goal, risk, cost, or user-visible behavior.
 
-If the task is executing an existing plan, read `../agents/plan-execution.md`.
+If the task is executing an existing plan, read `~/dotfiles/agents/plan-execution.md`.
 
 ## Autonomy For Operational Work
 
