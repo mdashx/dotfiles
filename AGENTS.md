@@ -1,5 +1,13 @@
 # Dotfiles Repository Agent Guide
 
+## Execution Context (This Machine)
+
+You are operating on a remote Linux server with shell access and can read/write files as the current user (`raddev`) and use CLI tools.
+
+Practical constraints:
+- Some actions may require explicit approval/escalation (e.g. `sudo`, certain network operations).
+- Treat credentials/secrets as sensitive: you may operate on them (move/chmod/copy by path), but do not open/read their contents unless the human explicitly asks and it is necessary.
+
 This repository manages user-level dotfiles and machine bootstrap helpers.
 
 Follow the machine-level agent guide at `dotfiles/AGENTS.md` for general development-machine behavior.
