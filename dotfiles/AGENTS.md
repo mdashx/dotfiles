@@ -1,5 +1,13 @@
 # Development Machine Agent Guide
 
+## Execution Context (This Machine)
+
+You are running on a real machine with shell access. You can use CLI tools and read/write files as the current user, within whatever permissions the environment grants.
+
+Constraints to keep in mind:
+- Some operations may require privilege escalation (e.g. `sudo`) and/or explicit approval depending on the environment.
+- Sensitive files (credentials, tokens, private keys, etc.): you may operate on them by path (move/chmod/copy), but do not open/read contents unless the human explicitly asks and it is necessary for the task.
+
 ## Purpose Of This Machine
 
 This is a shared development and research machine.

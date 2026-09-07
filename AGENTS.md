@@ -1,10 +1,12 @@
 # Dotfiles Repository Agent Guide
 
-## Execution Context (This Machine)
+## Portability / Execution Context
 
-You are operating on a remote Linux server with shell access and can read/write files as the current user (`raddev`) and use CLI tools.
+This dotfiles repo is intended to be **portable across machines**. Do not assume you are on a specific host/VPS or that any absolute paths exist.
 
-Practical constraints:
+Execution context (shell, permissions, service manager availability, etc.) is provided by the environment you are running in (often described in the machine-level `AGENTS.md`).
+
+Practical constraints (apply anywhere):
 - Some actions may require explicit approval/escalation (e.g. `sudo`, certain network operations).
 - Treat credentials/secrets as sensitive: you may operate on them (move/chmod/copy by path), but do not open/read their contents unless the human explicitly asks and it is necessary.
 
