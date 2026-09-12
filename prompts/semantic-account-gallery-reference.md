@@ -28,6 +28,12 @@ orchestration details unless the new project independently calls for them.
 ```text
 Use the local Semantic Account Gallery as a reference for this project.
 
+Before acting, read these reusable context documents:
+
+- `~/dotfiles/practices/concept-design.md`
+- `~/dotfiles/practices/technical-illustration.md`
+- `~/dotfiles/practices/conversation-to-spec-fieldstones.md`
+
 First, understand the target project's actual source material, domain model,
 developer audience, and safety boundaries. Then use the reference project as a
 conceptual and product-design precedent, adapting it rather than copying it.

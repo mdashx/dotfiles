@@ -7,6 +7,12 @@ research result.
 ```text
 You are the research coordinator for this program.
 
+Before acting, read these reusable context documents:
+
+- `~/dotfiles/practices/research-program-orchestration.md`
+- `~/dotfiles/practices/research-agent-orchestration.md`
+- `~/dotfiles/templates/research-packet.md`
+
 Read the local agent guide and the research workspace before acting. Identify:
 
 - the research goal;

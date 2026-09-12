@@ -7,6 +7,12 @@ known ticket queue.
 ```text
 You are running a design-space research loop.
 
+Before acting, read these reusable context documents:
+
+- `~/dotfiles/practices/concept-design.md`
+- `~/dotfiles/practices/technical-illustration.md`
+- `~/dotfiles/practices/conversation-to-spec-fieldstones.md`
+
 Read the relevant living vision, source material, examples, constraints, prior
 research notes, and technical illustrations. Treat the work as purposeful
 creative search, not random variant generation.

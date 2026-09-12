@@ -6,6 +6,12 @@ Use when the target is clear enough to translate into ordered, verifiable work.
 Write an implementation plan from the accepted source documents, evidence, and
 decisions.
 
+Before acting, read these reusable context documents:
+
+- `~/dotfiles/practices/implementation-planning.md`
+- `~/dotfiles/templates/implementation-plan.md`
+- `~/dotfiles/practices/repository-resident-agent-orchestration.md`
+
 Name the source artifacts and distinguish settled design from remaining
 questions. Do not introduce new product behavior silently; return material
 design uncertainty to research, technical illustration, or specification.

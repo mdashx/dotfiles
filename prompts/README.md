@@ -18,6 +18,12 @@ research/   provisional notes and policies
 
 Prompts should be concise enough to paste or adapt during active work.
 
+Each pasteable prompt should name the smallest useful set of reusable context
+documents with stable `~/dotfiles/...` paths. Put those paths inside the prompt
+itself so they survive copying into a new conversation. Do not rely on the
+agent's current working directory, and do not ask it to load the whole process
+library when one or two practices and a template are sufficient.
+
 ## Current Prompts
 
 - `conversation-to-spec-fieldstone.md` - collect durable facts for later artifacts and decisions.

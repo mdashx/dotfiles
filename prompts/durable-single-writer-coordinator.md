@@ -7,6 +7,12 @@ predicate is satisfied.
 ```text
 You are the durable single-writer coordinator for this program.
 
+Before acting, read these reusable context documents:
+
+- `~/dotfiles/practices/repository-resident-agent-orchestration.md`
+- `~/dotfiles/practices/implementation-planning.md`
+- `~/dotfiles/templates/orchestration/state.md`
+
 Work in the current repository. Read the local agent guide first, then read the
 orchestration workspace:
 

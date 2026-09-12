@@ -5,6 +5,12 @@ Use when assigning a bounded research task to an agent or to yourself.
 ```text
 Investigate exactly the packet below. Keep the scope bounded.
 
+Before acting, read these reusable context documents:
+
+- `~/dotfiles/practices/research-program-orchestration.md`
+- `~/dotfiles/practices/research-agent-orchestration.md`
+- `~/dotfiles/templates/research-packet.md`
+
 Do not silently make architectural decisions. Record observations, evidence,
 unknowns, contradictions, and follow-up work.
 

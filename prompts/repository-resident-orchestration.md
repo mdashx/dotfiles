@@ -10,6 +10,13 @@ or `continuous-research-coordinator.md` for evidence-gathering research loops.
 ```text
 Create a repository-resident orchestration workspace for this effort.
 
+Before acting, read these reusable context documents:
+
+- `~/dotfiles/practices/repository-resident-agent-orchestration.md`
+- `~/dotfiles/practices/implementation-planning.md`
+- `~/dotfiles/templates/orchestration/plan.md`
+- `~/dotfiles/templates/orchestration/state.md`
+
 Separate:
 
 - PLAN.md: semantic goal, scope, phases, completion criteria;

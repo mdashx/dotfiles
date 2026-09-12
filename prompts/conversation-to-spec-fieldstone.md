@@ -8,6 +8,12 @@ During this conversation, help solve the design problem at hand while quietly
 preserving only the durable facts that may clarify later research, technical
 illustrations, specifications, plans, or decisions.
 
+Before acting, read these reusable context documents:
+
+- `~/dotfiles/practices/conversation-to-spec-fieldstones.md`
+- `~/dotfiles/templates/fieldstone.md`
+- `~/dotfiles/practices/concept-design.md`
+
 Do not force a final artifact yet.
 
 Collect fieldstones only when they have enough weight to matter later:

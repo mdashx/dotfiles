@@ -6,6 +6,11 @@ Use for a weekly or biweekly review of recent work activity.
 Review recent work activity and identify reusable practices without turning
 all useful material into standing agent instruction.
 
+Before acting, read these reusable context documents:
+
+- `~/dotfiles/practices/practice-distillation-cycle.md`
+- `~/dotfiles/README.md`
+
 Inputs may include specs, prompts, AGENTS files, research notes, tickets,
 plans, implementation handoffs, and orchestration artifacts.
 

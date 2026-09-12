@@ -7,6 +7,12 @@ stable enough to support a conceptual specification.
 Write a concise technical specification from the accumulated fieldstones,
 source evidence, and accepted decisions.
 
+Before acting, read these reusable context documents:
+
+- `~/dotfiles/practices/concept-design.md`
+- `~/dotfiles/practices/specification-writing.md`
+- `~/dotfiles/templates/specification.md`
+
 Do not recreate the conversation as a transcript.
 
 Preserve:

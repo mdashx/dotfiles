@@ -7,6 +7,15 @@ implement.
 ```text
 Create a technical illustration for the current design question.
 
+Before acting, read these reusable context documents:
+
+- `~/dotfiles/practices/technical-illustration.md`
+- `~/dotfiles/templates/technical-illustration.md`
+- `~/dotfiles/examples/technical-illustrations/modular-artifact-generation-system.md`
+
+Use the template as a menu of possible sections, not a required outline. If
+the project shape is unfamiliar, skim the example before writing.
+
 Read the relevant living vision, research evidence, constraints, and prior
 illustrations. Make one plausible system shape concrete enough to inspect and
 criticize. Use concepts, interfaces, data examples, sequences, UI treatments,
