@@ -38,7 +38,13 @@ Examples are reference artifacts. They are not universal guidance as written.
 
 | Example | Source |
 | --- | --- |
-| `technical-previews/modular-artifact-generation-system.md` | `/home/raddev/principlelabs67-workbench/ovation-workflows/research/technical-preview.md` |
+| `technical-illustrations/modular-artifact-generation-system.md` | `/home/raddev/principlelabs67-workbench/ovation-workflows/research/technical-preview.md` |
 | `implementation-plans/modular-artifact-generation-system.md` | `/home/raddev/principlelabs67-workbench/ovation-workflows/research/IMPLEMENTATION-PLAN.md` |
 | `specifications/modular-artifact-generation-system/SPEC.md` | `/home/raddev/principlelabs67-workbench/ovation-workflows/research/SPEC.md` |
 | `discussion-reports/modular-artifact-generation-system.md` | `/home/raddev/principlelabs67-workbench/ovation-workflows/research/DISCUSSION-REPORT.md` |
+
+## Dotfiles History
+
+| Example | Source |
+| --- | --- |
+| `specification-methods/compiler-translation-specification.md` | Former `agents/specification-writing.md`, developed for the RadLex compiler and preserved as a specialized method during the Principle Labs specification-style migration. |

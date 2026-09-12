@@ -1,7 +1,7 @@
 # Specification From Fieldstones Prompt
 
-Use when a design conversation or research pass has accumulated fieldstones and
-the next task is to write the final technical specification.
+Use when accumulated fieldstones, source evidence, and accepted decisions are
+stable enough to support a conceptual specification.
 
 ```text
 Write a concise technical specification from the accumulated fieldstones,
@@ -17,17 +17,20 @@ Preserve:
 - formal rules and examples that clarify translation or architecture;
 - important human-led corrections and pivots in provenance, if requested.
 
-Use this top-level structure unless the subject clearly requires otherwise:
+Begin with a concise intent and organize the specification around durable
+behavioral concepts rather than files or conversation chronology.
 
-1. Vision
-2. Technical Introduction
-3. Survey of Decisions and Translation Rules
-4. Reference Appendices
+For each important concept, provide one complete interleaved pass:
 
-For each important decision or translation rule, distinguish:
+1. Prose Spec — purpose, state, actions, ownership, exclusions, and relations.
+2. Z Spec or another lightweight formal account — shape, transitions,
+   constraints, and invariants where formalism adds precision.
+3. Data examples — realistic instances, events, requests, outputs, or flows.
+4. Implementation suggestions / specifics — enforcement, authority,
+   persistence, failure behavior, and integration constraints without turning
+   the specification into an execution schedule.
 
-- upstream representation;
-- upstream logical meaning;
-- target representation;
-- application behavior.
+State cross-concept synchronization and open questions explicitly. Use the
+Principle Labs specification-writing practice as the method; do not import the
+specialized compiler/translation format unless the subject requires it.
 ```

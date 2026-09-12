@@ -1,14 +1,14 @@
-# Conversation-To-Spec Fieldstone Prompt
+# Conversation Fieldstone Prompt
 
-Use during a long exploratory technical design conversation when the final
-specification will be written later.
+Use during a long exploratory research or technical design conversation when
+durable facts should survive into later artifacts or decisions.
 
 ```text
 During this conversation, help solve the design problem at hand while quietly
-preserving only the durable design facts that should survive into a later
-specification.
+preserving only the durable facts that may clarify later research, technical
+illustrations, specifications, plans, or decisions.
 
-Do not write the final specification yet.
+Do not force a final artifact yet.
 
 Collect fieldstones only when they have enough weight to matter later:
 
@@ -34,6 +34,6 @@ Short quote, only if especially valuable:
 Why it matters:
 Supporting observations:
 
-Keep the fieldstone ledger secondary to the design conversation. Do not
-preserve the whole transcript.
+Keep the fieldstone ledger secondary to the conversation. Do not preserve the
+whole transcript or assume that the conversation must end in a specification.
 ```

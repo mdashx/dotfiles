@@ -1,39 +1,41 @@
 # {{Project}} Specification
 
-Source pattern: `dotfiles/agents/specification-writing.md`.
+Source method: `practices/specification-writing.md` and
+`practices/concept-design.md`.
 
-## 1. Vision
+## Intent
 
-## 2. Technical Introduction
+State what is being specified, its boundary, principal source of truth, and
+what enforces the important behavior.
 
-### Empirical Source Inventory
+## 1. {{Concept Name}}
 
-### Core Conceptual Model
+### Prose Spec
 
-### Notation
+Purpose, state, actions, ownership, exclusions, and relationships.
 
-### Source-Language Grammar Or Shape Inventory
+### Z Spec
 
-### System Architecture
+Lightweight formal account of state, actions, constraints, or invariants. Keep
+it concise when the concept has little state.
 
-## 3. Survey Of Decisions And Translation Rules
+### Data Examples
 
-### {{Decision Or Rule}}
+Realistic instances, events, requests, outputs, or state transitions.
 
-#### Upstream Meaning
+### Implementation Suggestions / Specifics
 
-#### Model Interpretation
+Runtime enforcement, authority, persistence, failures, integrations, and
+practical constraints. Do not schedule implementation work here.
 
-#### Translation Or Design Decision
+## 2. {{Next Concept Name}}
 
-#### Concrete Source To Target Example
+Repeat the useful parts of the interleaved concept account.
 
-#### Formal Translation Rule
+## Cross-Concept Synchronization and Invariants
 
-#### Entails / Does Not Entail
+## Open Questions
 
-#### Implementation Obligations
+## Summary or Suggested First Milestone
 
-#### Open Questions
-
-## 4. Reference Appendices
+## References

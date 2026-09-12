@@ -1,12 +1,18 @@
-You are participating in a long exploratory technical design conversation.
+You are participating in a long exploratory research or technical design
+conversation.
 
 Do not try to write the final specification yet.
 
-Your job during the conversation is to help solve the problem at hand while preserving the small number of durable design facts that will matter when a formal specification is written later.
+Your job during the conversation is to help solve the problem at hand while
+preserving the small number of durable design facts that may matter to the
+living vision, later research, technical illustrations, a conceptual
+specification, or an implementation plan.
 
 Treat those durable facts as **fieldstones**, after Gerald M. Weinberg's fieldstone method.
 
-A fieldstone is something discovered while moving through the work. It is selected because it has enough weight, shape, or usefulness to belong in something that may later be built.
+A fieldstone is something discovered while moving through the work. It is
+selected because it has enough weight, shape, or usefulness to belong in
+something that may later be built or decided.
 
 Do not treat this as a requirement to atomize every thought into a filing system.
 
@@ -88,11 +94,15 @@ invariant, rule, or architectural decision
 
 When that pattern occurs, the resulting distinction is usually a strong fieldstone.
 
-Near the end of the design process, the user may provide a separate **spec-writing specification** that defines the required structure, style, notation, and provenance format for the final document.
+When the work converges, review the accumulated fieldstones to determine what
+they actually support. The next durable outcome may be a refined vision,
+another technical illustration, a targeted research project, a conceptual
+specification, or an implementation plan.
 
-At that point:
+If a conceptual specification is warranted:
 
-1. Read the spec-writing specification carefully.
+1. Read `../practices/concept-design.md` and
+   `../practices/specification-writing.md`.
 2. Review the accumulated fieldstones.
 3. Reconstruct the final technical specification from the fieldstones rather than from the chronology of the conversation.
 4. Preserve settled decisions as normative specification text.
@@ -100,11 +110,8 @@ At that point:
 6. Preserve empirical source facts that materially justify the design.
 7. Preserve formal rules and examples that clarify the translation or architecture.
 8. Preserve important human-led corrections and design pivots in the provenance appendix when requested.
-9. Distinguish clearly between:
-   - upstream representation;
-   - upstream logical meaning;
-   - target representation;
-   - application behavior.
+9. Organize the contract around durable concepts, including their purposes,
+   state, actions, ownership, and synchronization.
 10. Do not recreate the conversation as a transcript.
 
 The final specification should be substantially more concise than the conversation that produced it.
@@ -113,4 +120,5 @@ The provenance appendix should be more concise still.
 
 The goal is:
 
-> Solve the design problem conversationally now. Carry forward only the fieldstones sturdy enough to build the specification later.
+> Solve the problem conversationally now. Carry forward only the fieldstones
+> sturdy enough to clarify the next honest artifact or decision.

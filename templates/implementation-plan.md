@@ -1,22 +1,30 @@
 # {{Project}} Implementation Plan
 
-Source pattern: Principle Labs research implementation plans and orchestration
-plans in `rad-nlp/research`.
+Source method: `practices/implementation-planning.md`.
 
-## Purpose
+## Intent and Scope
 
-## Constraints
+## Source Documents and Settled Decisions
 
-## Architecture
+## Current Baseline
 
-## Milestones
+## Constraints and Implementation Boundaries
 
-| ID | Milestone | Objective | Dependencies | Verification |
-| --- | --- | --- | --- | --- |
+## Ordered Phases or Vertical Slices
 
-## Work Slices
+### {{Slice ID}} — {{Outcome}}
 
-| ID | Slice | Acceptance | Evidence |
-| --- | --- | --- | --- |
+- **Objective:**
+- **Dependencies:**
+- **Implementation scope:**
+- **Acceptance behavior:**
+- **Verification evidence:**
+- **Return-to-design conditions:**
 
-## Risks And Open Questions
+## Integration, Migration, and Recovery
+
+## Risks and Blocking Questions
+
+## Suggested First Milestone
+
+## Completion Predicate and Human Gates

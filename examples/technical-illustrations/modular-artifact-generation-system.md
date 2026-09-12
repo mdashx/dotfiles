@@ -1,4 +1,7 @@
-# Technical Preview
+# Modular Artifact Generation System Technical Illustration
+
+> **Provenance:** Originally written as `Technical Preview`. Principle Labs now
+> uses **Technical Illustration** for this concrete but noncommittal artifact.
 
 This document is a **preview**, not a committed design.
 

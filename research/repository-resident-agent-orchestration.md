@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This note describes a lightweight orchestration system for sustained coding-agent work. The model was recovered from the completed RadLex Prolog compiler project, where a normative specification, an implementation plan, a dependency-ordered ticket queue, a resumable state record, an acceptance matrix, and executable verification gates worked together to carry the project to completion.
+This note describes a lightweight orchestration system for sustained coding-agent work. The model was recovered from the completed RadLex Prolog compiler project, where accepted design sources, an implementation plan, a dependency-ordered ticket queue, a resumable state record, an acceptance matrix, and executable verification gates worked together to carry the project to completion.
 
 The system is best understood as a repository-resident, evidence-carrying state machine. It is not merely a project plan or task list. It separates meaning, work decomposition, execution state, implementation decisions, and proof of completion into distinct artifacts.
 
@@ -13,8 +13,8 @@ The governing principle is:
 ## System Overview
 
 ```text
-Normative specification
-"What must the system mean?"
+Accepted design sources
+"What target has been settled?"
           │
           ▼
 Implementation plan
@@ -52,12 +52,12 @@ The model uses several small artifacts with deliberately different responsibilit
 | --- | --- |
 | Agent guide | Defines authority order, project laws, and execution discipline. |
 | Continuous-execution protocol | Defines how an agent selects, executes, verifies, records, and advances work. |
-| Normative specification | Defines the required meaning and externally observable behavior of the system. |
-| Implementation plan | Converts the specification into concrete architecture, milestones, and sequencing. |
+| Accepted design sources | Define the target through a conceptual specification when needed, or through a sufficiently clear vision, research record, illustrations, and decisions. |
+| Implementation plan | Converts the accepted target into concrete architecture, milestones, and sequencing. |
 | Ticket queue | Contains dependency-ordered contracts for bounded vertical slices. |
 | Execution-state record | Acts as the durable program counter: current phase, active ticket, next action, blockers, and latest evidence. |
-| Decision log | Records durable implementation choices that refine, but do not silently rewrite, the specification. |
-| Acceptance matrix | Maps global specification obligations to tickets and named executable evidence. |
+| Decision log | Records durable implementation choices that refine, but do not silently rewrite, the accepted design sources. |
+| Acceptance matrix | Maps global design and plan obligations to tickets and named executable evidence. |
 | Stable operator interface | Exposes prerequisite, test, build, acceptance, and final-verification commands. |
 | Orchestration checker | Verifies structural consistency among tickets, statuses, dependencies, acceptance references, and the active cursor. |
 
@@ -124,7 +124,7 @@ read authority and resumable state
         ↓
 resume the active ticket, or select the lowest-numbered ready ticket
         ↓
-read its cited specification and accepted decisions
+read its cited design sources and accepted decisions
         ↓
 establish a test or verification baseline
         ↓
@@ -151,7 +151,7 @@ title: Short imperative title
 status: planned | ready | in_progress | blocked | complete
 milestone: M0–Mn
 depends_on: [PROJECT-NNN]
-spec_refs: ["§x.y"]
+    source_refs: ["SPEC §x.y", "VISION §x", "decision D-NN"]
 acceptance: [A-NN]
 verification: make target-or-exact-command
 ```
@@ -239,7 +239,7 @@ An acceptance matrix should record:
 
 ```text
 obligation
-    ↔ normative specification reference
+    ↔ accepted design-source reference
     ↔ implementing ticket or tickets
     ↔ status
     ↔ named executable evidence
@@ -255,7 +255,7 @@ The orchestration model distinguishes three kinds of change:
 
 1. Small implementation choices can be made within a ticket when they preserve the governing semantics.
 2. Durable choices affecting interfaces, canonical representations, determinism, or downstream use belong in the decision log.
-3. Discoveries that contradict the normative specification or empirical source inventory require evidence and an explicit reconciliation decision.
+3. Discoveries that contradict accepted design sources or the empirical source inventory require evidence and an explicit reconciliation decision.
 
 Accepted decision records are append-only. They are not silently rewritten to make the design history appear more linear than it was.
 

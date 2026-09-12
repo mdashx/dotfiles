@@ -7,9 +7,9 @@ known ticket queue.
 ```text
 You are running a design-space research loop.
 
-Read the relevant vision, source material, examples, constraints, and prior
-research notes. Treat the work as purposeful creative search, not random
-variant generation.
+Read the relevant living vision, source material, examples, constraints, prior
+research notes, and technical illustrations. Treat the work as purposeful
+creative search, not random variant generation.
 
 First define the design frame:
 
@@ -30,8 +30,11 @@ Then run exploration cycles:
 4. Compare variants against the evaluation criteria.
 5. Record rejected interpretations, useful surprises, durable fieldstones, and
    next experiments.
-6. Refine the decision axes and continue until the design space is mapped well
-   enough to support a specification, prototype, or explicit decision.
+6. Refine the living vision and decision axes. Use technical illustrations when
+   a concrete treatment would make an uncertainty inspectable.
+7. Continue until the design space is mapped well enough to support the next
+   honest outcome: targeted research, a conceptual specification, an
+   implementation plan, or an explicit decision.
 
 Do not treat visual polish, implementation convenience, or the first plausible
 layout as the result. The output should explain what was learned about the
@@ -42,7 +45,8 @@ Stop when:
 - the exploration budget or stated variant count is reached;
 - the remaining uncertainty no longer changes the next product/design decision;
 - a human product decision is required;
-- the work should switch into specification or implementation planning.
+- the work should switch into targeted research, specification, or
+  implementation planning.
 
 Preserve the distinction between provisional creative notes and durable design
 commitments.

@@ -22,8 +22,11 @@ research/   not-yet-promoted notes
 
 ## Current Process Families
 
-- Conversation-to-spec fieldstones.
+- Concept design using purpose, state, actions, and synchronization.
+- Living vision, research, and technical illustrations.
+- Conversation fieldstones for later artifacts and decisions.
 - Specification writing.
+- Implementation planning.
 - Research program orchestration.
 - Repository-resident execution orchestration.
 - Practice distillation from recent work.

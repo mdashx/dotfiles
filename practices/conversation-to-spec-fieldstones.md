@@ -1,11 +1,12 @@
-# Conversation-To-Spec Fieldstones
+# Conversation Fieldstones
 
 Source pattern: `agents/conversation-to-spec-fieldstone.md`.
 
 ## Purpose
 
 Preserve the small number of durable design facts discovered during a long
-technical conversation so they can later support a specification.
+research or technical conversation so they can support later understanding and
+decisions.
 
 The purpose is not note-taking. The conversation remains focused on solving the
 problem at hand.
@@ -13,7 +14,7 @@ problem at hand.
 ## Fieldstone Rule
 
 ```text
-Collect only what may help construct the eventual specification.
+Collect only what may help clarify a later artifact or decision.
 ```
 
 A fieldstone may be:
@@ -38,5 +39,10 @@ Use `templates/fieldstone.md` for the artifact shape.
 
 ## Later Use
 
-When writing the final specification, reconstruct the document from the
-fieldstones rather than from the chronology of the conversation.
+Fieldstones may refine the living vision, motivate another technical
+illustration, define a targeted research project, support a conceptual
+specification, or justify an implementation plan.
+
+When constructing any later artifact, organize it around the problem rather
+than the chronology of the conversation. Do not assume that every fieldstone
+belongs in a specification or that a specification is the required outcome.

@@ -27,8 +27,20 @@ Prefer conversation before implementation. When a design is still forming, help 
 - open questions
 - implementation constraints
 
-Do not force a formal document too early. Small design conversations can stay conversational. Larger or recurring ideas may become design documents when that adds clarity.
+Do not force a formal document too early. Treat the vision as living while
+material questions remain. Use research and technical illustrations to make
+uncertain concepts or system shapes inspectable without turning them into
+commitments.
+
+At a genuine convergence point, distinguish among three possible next moves:
+
+- a targeted research project when evidence is still missing;
+- a conceptual specification when the behavioral contract is stable;
+- an implementation plan when the target is already sufficiently clear.
 
 When the conversation becomes substantive software modeling or architecture reasoning, also read [Working Profile: Tom Hyndman](working-profile-tom-hyndman.md).
 
-For long exploratory technical design conversations that are expected to become a later specification, also read [Conversation-To-Spec Fieldstone Workflow](conversation-to-spec-fieldstone.md).
+For long exploratory conversations, also read [Conversation Fieldstone
+Workflow](conversation-to-spec-fieldstone.md). When concept decomposition is
+useful, read `../practices/concept-design.md`. For a concrete but provisional
+system treatment, read `../practices/technical-illustration.md`.

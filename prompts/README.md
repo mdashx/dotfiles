@@ -20,10 +20,11 @@ Prompts should be concise enough to paste or adapt during active work.
 
 ## Current Prompts
 
-- `conversation-to-spec-fieldstone.md` - collect durable design facts during a long conversation.
+- `conversation-to-spec-fieldstone.md` - collect durable facts for later artifacts and decisions.
 - `continuous-research-coordinator.md` - run evidence-seeking research cycles until stated completion criteria or a real stop condition.
 - `design-space-research-loop.md` - explore a product/UI/design space through purposeful variants and synthesis.
 - `durable-single-writer-coordinator.md` - run an implementation plan continuously with one source-writing coordinator.
+- `implementation-plan.md` - translate a sufficiently clear target into ordered, verifiable work.
 - `practice-distillation-pass.md` - review recent work for reusable process material.
 - `private-inbox-agent.md` - capture private, context-rich thought handoffs without processing them.
 - `recent-work-catchup.md` - conversationally survey recent machine activity and reconstruct work episodes.
@@ -31,3 +32,4 @@ Prompts should be concise enough to paste or adapt during active work.
 - `research-packet-assignment.md` - assign a bounded research packet.
 - `semantic-account-gallery-reference.md` - apply the Semantic Account Gallery as a conceptual UI/reference precedent.
 - `specification-from-fieldstones.md` - write a specification from fieldstones and evidence.
+- `technical-illustration.md` - make one possible system shape concrete without committing to it.
