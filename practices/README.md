@@ -29,4 +29,5 @@ research/   not-yet-promoted notes
 - Implementation planning.
 - Research program orchestration.
 - Repository-resident execution orchestration.
+- PrincipleLabs RADPAIR R&D branching.
 - Practice distillation from recent work.
