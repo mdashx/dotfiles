@@ -31,6 +31,7 @@ library when one or two practices and a template are sufficient.
 - `design-space-research-loop.md` - explore a product/UI/design space through purposeful variants and synthesis.
 - `durable-single-writer-coordinator.md` - run an implementation plan continuously with one source-writing coordinator.
 - `implementation-plan.md` - translate a sufficiently clear target into ordered, verifiable work.
+- `orientation-handoff.md` - have a fresh agent read an existing DESIGN.md/FIELDSTONES.md pair and report its own understanding before continuing the work.
 - `practice-distillation-pass.md` - review recent work for reusable process material.
 - `private-inbox-agent.md` - capture private, context-rich thought handoffs without processing them.
 - `recent-work-catchup.md` - conversationally survey recent machine activity and reconstruct work episodes.
