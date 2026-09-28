@@ -10,8 +10,7 @@ source evidence, and accepted decisions.
 Before acting, read these reusable context documents:
 
 - `~/dotfiles/sop/concept-design.md`
-- `~/dotfiles/practices/specification-writing.md`
-- `~/dotfiles/templates/specification.md`
+- `~/dotfiles/sop/specification-writing.md`
 
 Do not recreate the conversation as a transcript.
 
@@ -37,6 +36,6 @@ For each important concept, provide one complete interleaved pass:
    the specification into an execution schedule.
 
 State cross-concept synchronization and open questions explicitly. Use the
-Principle Labs specification-writing practice as the method; do not import the
+Principle Labs specification-writing SOP as the method; do not import the
 specialized compiler/translation format unless the subject requires it.
 ```

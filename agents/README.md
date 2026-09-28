@@ -41,7 +41,7 @@ Read during a long exploratory research or technical design conversation where d
 
 Do not read for ordinary implementation tasks, short explanations, or final spec writing.
 
-### [Specification Writing](specification-writing.md)
+### [Writing a Specification](../sop/specification-writing.md)
 
 Read when the human asks to write, produce, revise, or finalize a technical specification from a design conversation, fieldstones, source evidence, or an existing design vision.
 

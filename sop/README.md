@@ -7,6 +7,7 @@ enough of why to support judgement.
 | --- | --- |
 | `fieldstone-method.md` | Walking around a topic and collecting what is worth carrying forward |
 | `concept-design.md` | Turning a pile of fieldstones into concepts, and writing them down |
+| `specification-writing.md` | Writing the specification itself |
 
 ## Copyable prompts
 
