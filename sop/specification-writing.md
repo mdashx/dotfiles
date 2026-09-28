@@ -44,35 +44,51 @@ This is the default rather than a law. Some subjects are not
 concept-shaped, and forcing them is worse than a plain account. But start
 here, and have a reason when you do something else.
 
-## Each concept gets four things
+## Each concept, said four ways
 
-In this order, once:
+One idea in four representations. Not four topics — four views of the
+same thing, which is exactly what makes them worth having together: they
+check each other. If you cannot write the data example, the formal model
+is probably wrong. If the code does not match the prose, one of them is
+confused.
 
-**What it is.** Purpose, the state it owns, the actions that change that
+**In prose.** Purpose, the state it owns, the actions that change that
 state, and its **operational principle** — the scenario showing the
 concept fulfilling its purpose. What it explicitly does *not* own, and
 how it relates to its neighbours.
 
-**Its shape, formally.** Lightweight Z. State, invariants, and the
-transitions that carry a real precondition. Keep it small; if the formal
+**In a mathematical model.** Lightweight Z: state, invariants, and the
+transitions that carry a real precondition. Keep it small. If the formal
 account grows out of proportion to the prose, the concept is doing too
 much.
 
-**Instances.** Realistic examples — data, events, requests, state
-transitions. Expose defaults, boundaries, and failure cases rather than
-the happy path. Examples are part of the specification, not decoration.
+**In data.** A snippet that makes the concept concrete, in whatever
+representation suits the domain — a few database rows, a JSON payload, an
+event, a table, a Scheme object. Prefer a boundary or failure case over
+the happy path.
 
-**What it would mean to build.** The implementation reality the design
-has to respect: ownership and process boundaries, persistence, failure
-behaviour, integration constraints, and anything that must be enforced
-by structure rather than remembered. This is not a schedule and not a
-plan. It is the part of reality that constrains the design.
+**In code.** A snippet showing the behaviour working. Scheme is a good
+default: it expresses an abstraction directly, without the ceremony a
+production framework imposes, and nobody will mistake it for the
+implementation. Any notation that lets you manipulate the idea at roughly
+the level you understand it will do.
+
+Neither the data nor the code needs to be complete. You are illustrating,
+not specifying a wire format or shipping a reference implementation. A
+handful of lines that make the idea click is the target; a full
+implementation is a different document and usually a worse explanation.
+
+Implementation reality that genuinely constrains the design — a
+concurrency property that rules out an approach, a boundary imposed by
+the process model — belongs in the prose, as part of what the concept
+is. Deployment detail, persistence choices and integration mechanics do
+not belong in an exploratory document at all.
 
 **Do not label these sections.** A heading reading *Prose Spec* tells a
 reader nothing they could not see by looking. Prose is recognisable as
-prose; a schema is recognisable as a schema. The four parts are an
-authoring discipline — check that all four are present before you call it
-done — not a rendering instruction.
+prose; a schema is recognisable as a schema. The four representations are
+an authoring discipline — check that all four are present before you call
+it done — not a rendering instruction.
 
 The interleaving is the point. A reader should finish one concept before
 meeting the next, rather than assembling it from four scattered sections.
@@ -136,7 +152,7 @@ Reconstruct from the fieldstones rather than replaying the chronology.
 - Examples make it concrete.
 - Invariants and failure behaviour are explicit.
 - Open questions are visible.
-- Implementation material constrains rather than schedules.
+- Every concept is said four ways, and the four agree.
 - A reader can get through it without meeting a date, a code, or an
   argument with someone who is not there.
 
