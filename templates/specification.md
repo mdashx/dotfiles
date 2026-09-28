@@ -1,7 +1,7 @@
 # {{Project}} Specification
 
 Source method: `practices/specification-writing.md` and
-`practices/concept-design.md`.
+`sop/concept-design.md`.
 
 ## Intent
 

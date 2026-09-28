@@ -13,6 +13,7 @@ Structure mirrors the original layout, so an old path maps directly:
 | `practices/conversation-to-spec-fieldstones.md` | `sop/fieldstone-method.md` |
 | `prompts/conversation-to-spec-fieldstone.md` | `sop/fieldstone-method.md` |
 | `templates/fieldstone.md` | `sop/fieldstone-method.md` (record shape) |
+| `practices/concept-design.md` | `sop/concept-design.md` |
 
 ## Note on the fieldstone material
 

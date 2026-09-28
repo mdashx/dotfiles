@@ -7,7 +7,7 @@ conceptual specification.
 
 ## Operating Rules
 
-Read `../practices/concept-design.md` when the problem still needs to be
+Read `../sop/concept-design.md` when the problem still needs to be
 decomposed into durable behavioral concepts. Read
 `../practices/specification-writing.md` for the general specification method,
 then use `../templates/specification.md` as a starting shape when useful.

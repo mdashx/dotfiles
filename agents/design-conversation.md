@@ -43,5 +43,5 @@ When the conversation becomes substantive software modeling or architecture reas
 For long exploratory conversations, also read the [Fieldstone
 Method](../sop/fieldstone-method.md) SOP. Collecting fieldstones is the
 primary activity of a design conversation, not a side task. When concept decomposition is
-useful, read `../practices/concept-design.md`. For a concrete but provisional
+useful, read `../sop/concept-design.md`. For a concrete but provisional
 system treatment, read `../practices/technical-illustration.md`.

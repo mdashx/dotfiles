@@ -9,7 +9,7 @@ You are running a design-space research loop.
 
 Before acting, read these reusable context documents:
 
-- `~/dotfiles/practices/concept-design.md`
+- `~/dotfiles/sop/concept-design.md`
 - `~/dotfiles/practices/technical-illustration.md`
 - `~/dotfiles/sop/fieldstone-method.md`
 

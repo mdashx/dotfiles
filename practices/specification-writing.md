@@ -43,7 +43,7 @@ Inspect relevant source systems and prior research. Preserve established facts,
 accepted decisions, important rejected interpretations, and genuinely open
 questions. Compress the conversation rather than reproducing it.
 
-Use `concept-design.md` when the problem still needs behavioral decomposition.
+Use `../sop/concept-design.md` when the problem still needs behavioral decomposition.
 
 ## Intent
 

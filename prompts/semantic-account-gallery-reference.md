@@ -30,7 +30,7 @@ Use the local Semantic Account Gallery as a reference for this project.
 
 Before acting, read these reusable context documents:
 
-- `~/dotfiles/practices/concept-design.md`
+- `~/dotfiles/sop/concept-design.md`
 - `~/dotfiles/practices/technical-illustration.md`
 - `~/dotfiles/sop/fieldstone-method.md`
 

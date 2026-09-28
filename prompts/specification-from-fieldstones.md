@@ -9,7 +9,7 @@ source evidence, and accepted decisions.
 
 Before acting, read these reusable context documents:
 
-- `~/dotfiles/practices/concept-design.md`
+- `~/dotfiles/sop/concept-design.md`
 - `~/dotfiles/practices/specification-writing.md`
 - `~/dotfiles/templates/specification.md`
 
