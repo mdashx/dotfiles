@@ -27,7 +27,7 @@ library when one or two practices and a template are sufficient.
 ## Current Prompts
 
 - `base-clean-rd-project-setup.md` - orient an agent before creating a new machine-local R&D project from `research/base-clean`.
-- `conversation-to-spec-fieldstone.md` - collect durable facts for later artifacts and decisions.
+- Fieldstone collection has moved to `../sop/fieldstone-method.md`.
 - `continuous-research-coordinator.md` - run evidence-seeking research cycles until stated completion criteria or a real stop condition.
 - `design-space-research-loop.md` - explore a product/UI/design space through purposeful variants and synthesis.
 - `durable-single-writer-coordinator.md` - run an implementation plan continuously with one source-writing coordinator.

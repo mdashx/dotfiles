@@ -32,7 +32,7 @@ Before acting, read these reusable context documents:
 
 - `~/dotfiles/practices/concept-design.md`
 - `~/dotfiles/practices/technical-illustration.md`
-- `~/dotfiles/practices/conversation-to-spec-fieldstones.md`
+- `~/dotfiles/sop/fieldstone-method.md`
 
 First, understand the target project's actual source material, domain model,
 developer audience, and safety boundaries. Then use the reference project as a

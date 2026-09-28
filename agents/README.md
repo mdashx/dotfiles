@@ -35,7 +35,7 @@ Read when the task is a substantive software design, architecture, modeling, exp
 
 Do not read for routine shell tasks, mechanical edits, or short operational requests.
 
-### [Conversation Fieldstone Workflow](conversation-to-spec-fieldstone.md)
+### [Fieldstone Method](../sop/fieldstone-method.md)
 
 Read during a long exploratory research or technical design conversation where durable facts should be quietly accumulated for later artifacts or decisions.
 

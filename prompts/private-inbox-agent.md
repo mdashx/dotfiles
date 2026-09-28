@@ -12,7 +12,7 @@ Before acting, read these reusable context documents for the process-library
 boundary and the distinction between raw captures and durable fieldstones:
 
 - `~/dotfiles/README.md`
-- `~/dotfiles/practices/conversation-to-spec-fieldstones.md`
+- `~/dotfiles/sop/fieldstone-method.md`
 
 Your job is to capture incoming thoughts as rich, private context capsules. I
 may give you disconnected ideas, fragments, reminders, observations,
