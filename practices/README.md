@@ -18,11 +18,15 @@ practices/  why and how a reusable method works
 templates/  blank artifact shapes
 examples/   completed reference artifacts
 research/   not-yet-promoted notes
+
+practices/literature/  primary sources a practice rests on, each with a
+                       distilled note so the original need not be re-read
 ```
 
 ## Current Process Families
 
-- Concept design using purpose, state, actions, and synchronization.
+- Concept design using purpose, state, actions, operational principle,
+  and synchronization.
 - Living vision, research, and technical illustrations.
 - Conversation fieldstones for later artifacts and decisions.
 - Specification writing.

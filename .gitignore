@@ -62,3 +62,7 @@ tmp*
 # local env files
 .env.local
 .env.*.local
+
+# Local copies of primary sources; the distilled notes beside them are
+# committed, the originals are not ours to redistribute.
+practices/literature/*.pdf
