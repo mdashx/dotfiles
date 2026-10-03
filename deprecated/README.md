@@ -17,6 +17,7 @@ Structure mirrors the original layout, so an old path maps directly:
 | `agents/specification-writing.md` | `sop/specification-writing.md` |
 | `practices/specification-writing.md` | `sop/specification-writing.md` |
 | `templates/specification.md` | `sop/specification-writing.md` (shape folded in) |
+| `sop/fieldstone-method.md` | retired, no replacement |
 
 ## Note on the fieldstone material
 
@@ -52,3 +53,15 @@ The other visible change is that the four parts are no longer labelled in
 the output. A heading reading *Prose Spec* tells a reader nothing they
 could not see by looking. The four parts remain mandatory as an authoring
 check.
+
+## Note on retiring the fieldstone method
+
+The method itself was never wrong, but requiring it as a formal step
+produced exactly the secretary failure mode it was meant to avoid:
+agents reporting a fieldstone the moment it was found, turning a design
+conversation into bookkeeping. In practice, the durable material a
+conversation produces is already legible from the specification or
+design document it feeds, and naming it as a separate mandatory step
+stopped paying for itself. The record stays here for the reasoning and
+the recognition pattern, which are still worth reading; it is no longer
+a required procedure.
